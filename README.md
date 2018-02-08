@@ -20,19 +20,23 @@ the daemon won't load it automatically. Run the following command for that purpo
 
 ## Development
 
-Start the Docker daemon on your machine and run `docker pull franela/dind`. 
+1) git clone this repo to $GOPATH/src/github.com/play-with-docker (see [this comment](https://github.com/play-with-docker/play-with-docker/issues/210#issuecomment-342875683))
 
-1) Install go 1.7.1+ with `brew` on Mac or through a package manager.
+2) Start the Docker daemon on your machine 
 
-2) Install [dep](https://github.com/golang/dep) and run `dep ensure` to pull dependencies
+3) run `docker pull franela/dind`. 
 
-3) Start PWD as a container with docker-compose up.
+4) Install go 1.7.1+ with `brew` on Mac or through a package manager.
 
-5) Point to http://localhost and click "New Instance"
+5) Install [dep](https://github.com/golang/dep) and run `dep ensure` to pull dependencies
+
+6) Start PWD as a container with docker-compose up.
+
+7) Point to http://localhost and click "New Instance"
 
 Notes:
 
-* There is a hard-coded limit to 5 Docker playgrounds per session. After 4 hours sessions are deleted.
+* There is a hard-coded limit to 5 Docker playgrounds per session. After 4 hours sessions are deleted. edit those limits in 
 * If you want to override the DIND version or image then set the environmental variable i.e.
   `DIND_IMAGE=franela/docker<version>-rc:dind`. Take into account that you can't use standard `dind` images, only [franela](https://hub.docker.com/r/franela/) ones work.
   
