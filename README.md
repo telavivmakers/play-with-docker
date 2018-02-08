@@ -1,3 +1,7 @@
+a fork for [TAMI](telavivmakers.org] [script_kiddies](https://telavivmakers.org/index.php/Script_kiddies) workshop
+
+beloow this line is (mostly) vanila readme. but i expanded it a bit to add guidance for arch linux system
+
 # play-with-docker
 
 Play With Docker gives you the experience of having a free Alpine Linux Virtual Machine in the cloud
