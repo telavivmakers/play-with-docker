@@ -36,7 +36,7 @@ the daemon won't load it automatically. Run the following command for that purpo
 
 Notes:
 
-* There is a hard-coded limit to 5 Docker playgrounds per session. After 4 hours sessions are deleted. edit those limits in 
+* There is a hard-coded limit to 5 Docker playgrounds per session. After 4 hours sessions are deleted. edit those limits guide is on the [wiki](https://github.com/play-with-docker/play-with-docker/wiki/Deploying-PWD-in-your-own-infrastructure) 
 * If you want to override the DIND version or image then set the environmental variable i.e.
   `DIND_IMAGE=franela/docker<version>-rc:dind`. Take into account that you can't use standard `dind` images, only [franela](https://hub.docker.com/r/franela/) ones work.
   
